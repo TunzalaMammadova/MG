@@ -1,0 +1,81 @@
+.header-up-area {
+  height: 45px;
+  width: 100%;
+  background-color: #f15803;
+}
+.header-up-area .header-up-left {
+  display: flex;
+  margin-left: 50px;
+}
+.header-up-area .header-up-left .menues ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header-up-area .header-up-left .menues ul a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.header-up-area .header-up-left .menues ul a:hover {
+  color: rgb(211, 211, 211);
+}
+.header-up-area .header-up-right {
+  display: flex;
+  font-size: 12px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+.header-up-area .header-up-right .account ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 13px;
+}
+.header-up-area .header-up-right .account ul a {
+  color: white;
+  text-decoration: none;
+}
+.header-up-area .header-up-right .account i {
+  color: white;
+}
+.header-up-area .header-up-right .language {
+  color: white;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.header-up-area .header-up-right .language img {
+  height: 15px;
+  width: 22px;
+}
+
+.header-down-area .logo img {
+  width: 263px;
+  height: 51px;
+}
+.header-down-area .search2 {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #f15803;
+}
+.header-down-area .search2 input {
+  padding-left: 20px;
+  padding-top: 6px;
+  border: none;
+  background: none;
+  font-weight: 400;
+}
+.header-down-area .search2 input:focus {
+  outline: none;
+}
+.header-down-area .search2 i {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 200px;
+  color: #f15803;
+}/*# sourceMappingURL=style.css.map */
