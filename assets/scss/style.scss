@@ -1,3 +1,7 @@
+.row {
+    margin: 0 !important;
+}
+
 .header-up-area {
     height: 45px;
     width: 100%;
@@ -72,6 +76,10 @@
 }
 
 .header-down-area {
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 150px;
+
     .logo {
         img {
             width: 263px;
@@ -80,6 +88,7 @@
     }
 
     .search2 {
+        margin-top: 5px;
         width: 250px;
         height: 40px;
         border: 1px solid #f15803;
@@ -105,6 +114,221 @@
             color: #f15803;
         }
 
+    }
+
+    .contact {
+        margin-top: -10px;
+
+        span {
+
+            color: #f15803;
+            font-weight: bold;
+            font-size: 33px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .basket {
+        display: flex;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: -50px;
+
+        .favori {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f15803;
+            color: white;
+
+        }
+
+        .zero {
+            span {
+
+                width: 20px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rebeccapurple;
+                font-size: 12px;
+                border-radius: 50px;
+                margin-bottom: 20px;
+                margin-left: -10px;
+                background-color: #f15803;
+                color: white;
+                border: 1px solid white;
+            }
+
+        }
+
+        .shopping {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f15803;
+            color: white;
+            margin-left: 8px;
+
+        }
+
+        .price {
+            margin-top: 10px;
+            margin-left: 5px;
+            font-size: 13px;
+        }
 
     }
+
+}
+
+.header-navbar {
+    .navbar {
+        margin-left: 40px;
+        margin-top: 40px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-family: inherit;
+                font-weight: 500;
+                display: flex;
+
+                &:hover {
+                    color: #f15803;
+                }
+
+                transition: all 0.2s;
+            }
+        }
+
+    }
+}
+
+#main-area {
+
+    .content {
+        img {
+            width: 100%;
+        }
+    }
+
+    .points {
+
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+        gap: 10px;
+
+        .point {
+            .point1 {
+                margin-top: 3px;
+                margin-left: 3px;
+                width: 9px;
+                height: 9px;
+                border-radius: 50px;
+                background-color: rgb(77, 76, 76);
+            }
+
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+            background-color: rgb(159, 159, 159);
+
+        }
+    }
+
+    .brands {
+        margin-top: 80px;
+        width: 1000px;
+        height: 90px;
+        margin-left: 300px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(200, 200, 200);
+
+        img {
+            width: 140px;
+            height: 83px;
+            margin-left: 20px;
+        }
+    }
+
+    .offer {
+        height: 403px;
+        width: 700px;
+        border: 1px solid #aaaaaa;
+        margin-top: 30px;
+        margin-left: 105px;
+
+        h4 {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 17px;
+            color: #aaaaaa;
+            height: 40px;
+            border-bottom: 1px solid #aaaaaa;
+            border-right: 1px solid #aaaaaa;
+            padding-left: 20px;
+        }
+
+        .phone {
+            display: flex;
+
+            .phone-img {
+
+                img {
+                    width: 303px;
+                    height: 303px;
+                }
+            }
+
+            .phone-text {
+                p {
+                    font-family: inherit;
+                    color: #4a4a4a;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+
+                span {
+                    color: #f15803;
+                    font-weight: 400;
+                    font-size: 21px;
+                    font-family: "Montserrat", sans-serif;
+                    border-bottom: 1px solid #aaaaaa;
+                    display: inline-block;
+                    width: 95%;
+                }
+
+            }
+
+
+        }
+
+    }
+    .honor{
+        margin-top: 30px;
+        margin-left: -95px;
+        img{
+            height: 403px;
+            width: 231px;
+        }
+    }
+
 }
