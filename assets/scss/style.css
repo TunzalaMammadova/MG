@@ -236,14 +236,23 @@
   font-size: 25px;
   font-weight: 600;
 }
-#main-area .offer .phone .phone-text span {
+#main-area .offer .phone .phone-text .price {
+  display: flex;
+  padding-right: 150px;
+  border-bottom: 1px solid #aaaaaa;
+  width: 95%;
+}
+#main-area .offer .phone .phone-text .price span {
   color: #f15803;
   font-weight: 400;
   font-size: 21px;
   font-family: "Montserrat", sans-serif;
-  border-bottom: 1px solid #aaaaaa;
-  display: inline-block;
   width: 95%;
+}
+#main-area .offer .phone .phone-text .price p {
+  font-size: 16px;
+  padding-top: 3px;
+  color: #6b6a81;
 }
 #main-area .honor {
   margin-top: 30px;
@@ -252,4 +261,556 @@
 #main-area .honor img {
   height: 403px;
   width: 231px;
+}
+#main-area .product-search {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 105px;
+  width: 1000px;
+  height: 40px;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+#main-area .product-search h5 {
+  color: #6b6a81;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#main-area .product-card {
+  display: flex;
+  margin-left: 105px;
+  width: 450px;
+  height: 200px;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+#main-area .product-card .product-img img {
+  width: 174px;
+  height: 174px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#main-area .product-card .text {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#main-area .product-card .text a {
+  text-decoration: none;
+  list-style: none;
+  color: #6b6a81;
+  font-size: 18px;
+  font-weight: bold;
+}
+#main-area .product-card .text .price {
+  display: flex;
+  margin-top: 30px;
+}
+#main-area .product-card .text .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#main-area .product-card .text .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#main-area .product-card .text button {
+  width: 180px;
+  height: 40px;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  background-color: #f15803;
+  border: none;
+  transition: all 0.2s;
+}
+#main-area .product-card .text button:hover {
+  background-color: #c84701;
+}
+#main-area .news {
+  width: 1000px;
+  height: 40px;
+  border: 1px solid #aaaaaa;
+  margin-top: 30px;
+  margin-left: 105px;
+}
+#main-area .news ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: 5px;
+  list-style: none;
+  gap: 30px;
+}
+#main-area .news ul a {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-left: 20px;
+  color: #777777;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+#main-area .news ul a:hover {
+  width: 200px;
+  height: 30px;
+  background-color: #f15803;
+  color: white;
+}
+
+#card-area .cards {
+  display: flex;
+  gap: 20px;
+  margin-left: 105px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+#card-area .cards .card1 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards .card1 .card-text {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+#card-area .cards .card1 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards .card1 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards .card1 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards .card1 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards .card1 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards .card2 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards .card2 .card-text {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#card-area .cards .card2 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards .card2 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards .card2 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards .card2 .price span {
+  margin-left: 35px;
+  color: #6b6a81;
+}
+#card-area .cards .card2 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards .card3 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards .card3 .card-text {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#card-area .cards .card3 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards .card3 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards .card3 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards .card3 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards .card3 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards .card4 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards .card4 .card-text {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#card-area .cards .card4 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards .card4 .price {
+  display: flex;
+  margin-left: 30px;
+}
+#card-area .cards .card4 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards .card4 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards .card4 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards .card5 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards .card5 .card-text {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#card-area .cards .card5 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards .card5 .price {
+  display: flex;
+  margin-left: 30px;
+}
+#card-area .cards .card5 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards .card5 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards .card5 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 {
+  display: flex;
+  gap: 30px;
+  margin-left: 105px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+#card-area .cards2 .card1 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards2 .card1 .card-text {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+#card-area .cards2 .card1 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards2 .card1 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards2 .card1 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards2 .card1 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards2 .card1 .price .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 .card1 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 .card2 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards2 .card2 .card-text {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#card-area .cards2 .card2 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards2 .card2 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards2 .card2 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards2 .card2 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards2 .card2 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 .card3 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards2 .card3 .card-text {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#card-area .cards2 .card3 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards2 .card3 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards2 .card3 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards2 .card3 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards2 .card3 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 .card4 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards2 .card4 .card-text {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#card-area .cards2 .card4 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards2 .card4 .price {
+  display: flex;
+  margin-left: 40px;
+}
+#card-area .cards2 .card4 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards2 .card4 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards2 .card4 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .cards2 .card5 .card-img img {
+  width: 184px;
+  height: 184px;
+}
+#card-area .cards2 .card5 .card-text {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#card-area .cards2 .card5 .card-text a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#card-area .cards2 .card5 .price {
+  display: flex;
+  margin-left: 14px;
+}
+#card-area .cards2 .card5 .price p {
+  color: #f15803;
+  font-size: 17px;
+}
+#card-area .cards2 .card5 .price span {
+  margin-left: 20px;
+  color: #6b6a81;
+}
+#card-area .cards2 .card5 .sale img {
+  margin-top: -370px;
+  width: 80px;
+  height: 30px;
+}
+#card-area .payment {
+  display: flex;
+  margin-left: 105px;
+  margin-top: 50px;
+  gap: 30px;
+  cursor: pointer;
+}
+#card-area .payment .pay-1 img {
+  width: 360px;
+  height: 226px;
+}
+#card-area .payment .pay-2 img {
+  width: 630px;
+  height: 226px;
+}
+#card-area .blog {
+  width: 1020px;
+  height: 300px;
+  border: 1px solid #aaaaaa;
+  margin-top: 50px;
+  margin-left: 105px;
+}
+#card-area .blog .blog-text h5 {
+  height: 40px;
+  font-size: 17px;
+  padding-top: 10px;
+  border-bottom: 1px solid #aaaaaa;
+  padding-left: 10px;
+  color: #6b6a81;
+  font-weight: bold;
+}
+#card-area .blog .blog-cart {
+  display: flex;
+  margin-top: 30px;
+}
+#card-area .blog .blog-cart .product-1 img {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#card-area .blog .blog-cart .content {
+  margin-left: 30px;
+}
+#card-area .blog .blog-cart .content p {
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+#card-area .blog .blog-cart .content p:hover {
+  color: #f15803;
+}
+#card-area .blog .blog-cart .content span {
+  color: #6b6a81;
+  font-size: 16px;
+}
+#card-area .blog .blog-cart .content button {
+  margin-top: 10px;
+  width: 150px;
+  height: 23px;
+  background-color: rgb(73, 72, 72);
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+#card-area .blog .blog-cart .content a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  width: 30px;
+  height: 100%;
+  background-color: #f15803;
+  margin-left: 31px;
+  border: none;
+  color: white;
+}
+#card-area .blog .blog-cart .product-2 img {
+  margin-left: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#footer-area {
+  width: 100%;
+  height: 500px;
+  background-color: #262626;
+}
+#footer-area .footer-up {
+  height: 280px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #848484;
+}
+#footer-area .footer-up p {
+  color: #c5c5c5;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 10px;
+}
+#footer-area .footer-up ul li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+#footer-area .footer-up ul li a {
+  text-decoration: none;
+  color: #969696;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+#footer-area .footer-up ul li a:hover {
+  color: #f15803;
+}
+#footer-area .footer-up .contact a {
+  display: block;
+  color: #969696;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+#footer-area .footer-up .contact button {
+  width: 220px;
+  height: 30px;
+  border: none;
+}
+#footer-area .footer-up .contact span {
+  display: block;
+  color: white;
+  width: 100px;
+  height: 100%;
+  background-color: #f15803;
+  margin-left: 114px;
 }/*# sourceMappingURL=style.css.map */
